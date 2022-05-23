@@ -7,6 +7,169 @@
   pointer-events: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: aliceblue;
+}
+
+.container {
+  /* padding: 10vw 2vh 10vw 2vh;
+  position: absolute; */
+  /* position: absolute;
+  width: 550px;
+  height: 868px; */
+  left: 65px;
+  top: 53px;
+}
+
+.p-about {
+  color: white;
+}
+
+.p-interest {
+  color: white;
+}
+
+.btn-email {
+  background: white;
+}
+
+.info-buttons{
+  display: flex;
+}
+.btn-email-img{
+  padding-top: 7px;
+}
+.btn-img-txt{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+/* .info-buttons{
+  margin: auto !important;
+  width: 50% !important;
+} */
+.btn-linkedin {
+  background: #61dafb;
+  margin-left: auto;
+  float: right;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  display: flex;
+
+}
+
+.info-title {
+  /* height: 70vmin; */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.btn-linkedin-img {
+  padding-top: 7px;
+  height: 20px;
+}
+
+.main-content {
+  width: 50%;
+  background-color: #1A1B21;
+  margin: auto !important;
+  /* margin-left: auto !important;
+  margin-right: auto !important; */
+
+}
+
+.info-dv {
+  position: relative;
+  /* height: 80vmin; */
+  /* width: 100vmin; */
+}
+
+.prof-name {
+  margin: auto !important;
+  width: 50% !important;
+  padding: 10px !important;
+  padding-left: 12vw !important;
+}
+ /* position: absolute;
+width: 317px;
+height: 317px;
+left: 116px;
+top: 44px;  */
+/* background: url(.png);
+border-radius: 10px 10px 0px 0px; */
+
+ .prof-img {
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+
+} 
+/* .background-img-prof{
+  background:url('./Photo/emma-watson-.jpg') repeat 0 0;
+} */
+.prof-position {
+  margin: auto !important;
+  width: 50% !important;
+  padding: 10px !important;
+  padding-left: 12vw !important;
+}
+
+.prof-website {
+  margin: auto !important;
+  width: 50% !important;
+  padding: 10px !important;
+  padding-left: 12vw !important;
+}
+
+.btn-email {
+  background-color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+}
+
+.btn-img-txt{
+  text-align: center;
+}
+
+
+About {
+  height: 10vh;
+}
+
+Interest {
+  height: 10vh;
+}
+
+Footer {
+  height: 10vh;
+}
+
+.about-name{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.interest-name{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.footer-name{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* .Imm-photo{
+  height: 30px;
+} */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,7 +195,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+.icon-facebook{
+  height: 60px;
+  width: 60px;
+  background: #918E9B;
+  
+}
+.icon-twitter{
+  height: 60px;
+  width: 60px;
+  background: #918E9B;
+}
+.icon-instagram{
+  height: 60px;
+  width: 60px;
+  background: #918E9B;
+}
+.icon-github{
+  height: 60px;
+  width: 60px;
+  background: #918E9B;
+}
+.footer-items a{
+  padding-left: 6%;
+  padding-right: 4%;
 }
